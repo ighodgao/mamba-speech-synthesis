@@ -4,7 +4,6 @@ This the notebook presented in [Lukas Nel's blog](https://2084.substack.com/p/20
 
 - Performing some of the audio preprocessing steps using ffmpeg instead of moviepy
 - Padding the audio snippets with 0s or truncating if the snippet is not exactly 10s
-- Using the unconditional generation function provided rather than generating from test audio samples (as shown in the blog)
 - Using Determined AI's Detached Mode for visualization and checkpointing instead of Weights & Biases
 
 This script trains a Mamba model on audio snippets from a YouTube video or playlist link. After the model is trained, it generates new audio using a model checkpoint. 
